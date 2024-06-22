@@ -1,0 +1,1 @@
+ALTER TABLE "next-data-pattern_post" ADD COLUMN "created_by" text;

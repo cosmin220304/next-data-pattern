@@ -1,0 +1,27 @@
+{
+  "version": "6",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1719058652351,
+      "tag": "0000_majestic_black_panther",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1719058671019,
+      "tag": "0001_spooky_betty_ross",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1719058830885,
+      "tag": "0002_jazzy_valeria_richards",
+      "breakpoints": true
+    }
+  ]
+}

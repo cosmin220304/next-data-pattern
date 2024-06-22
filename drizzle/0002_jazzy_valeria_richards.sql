@@ -1,0 +1,1 @@
+ALTER TABLE "next-data-pattern_post" ALTER COLUMN "created_by" SET NOT NULL;

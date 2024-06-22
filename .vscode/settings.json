@@ -1,0 +1,36 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "headwind.runOnSave": false,
+  "tailwindCSS.experimental.classRegex": [
+    "\\/\\*\\s?tw:\\s?\\*\\/\\s?'(.*)'",
+    "tw-start([\\w\\W]*?)tw-end",
+    "[cC][lL][aA][sS][sS].+[\"'`](.*)[\"'`]",
+    "[sS][tT][yY][lL][eE].+[\"'`](.*)[\"'`]",
+    "twJoin\\([\\w\\W]*?\\)",
+    "twMerge\\([\\w\\W]*?\\)",
+    "customTwMerge\\([\\w\\W]*?\\)",
+    "cva\\(([^)]*)\\)",
+    "variants\\(([^)]*)\\)",
+    "[\"'`]([^\"'`]*).*?[\"'`]"
+  ],
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 160
+}
